@@ -9,7 +9,7 @@ html {
   	line-height: 1.15;
   	-webkit-text-size-adjust: 100%;
   	-ms-text-size-adjust: 100%;
-  	-ms-overflow-style: scrollbar;
+  	/*-ms-overflow-style: scrollbar;*/
   	-webkit-tap-highlight-color: transparent;
 	position: relative;
   	min-height: 100%;
@@ -18,13 +18,15 @@ html {
 	}
 body{
 	margin:0;
-	font-size:1rem;
+	paddding:0;
 	}
 .footer {
 	position: absolute;
 	bottom: 0;
-	width:100%;
-	/* Set the fixed height of the footer here */
+	left:0;
+	right:0;
+	/*width:100%;
+	 Set the fixed height of the footer here */
 	height: 60px;
 	line-height: 60px; /* Vertically center the text there */
 	background-color: #000;
@@ -38,7 +40,9 @@ body{
 .navbar{
 	position: fixed;
 	top:0;
-	width:100vw;
+	left:0;
+	right:0;
+	/*width:100vw;*/
 	background-color:rgba(0, 0, 0, 0.8);
 	border-color: #080808;
 	height: 60px;
@@ -291,9 +295,8 @@ body{
  	display: block;
 	}
 
-body > .container{
+.container{
 	padding: 60px 0 0 0;
-	border:2px solid #f00;
 	}
 .siling-content{
 	padding: 60px 60px 60px 60px;
