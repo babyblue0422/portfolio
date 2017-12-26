@@ -154,6 +154,7 @@ body{
 	margin:18px 10px 10px 10px;	
 	text-decoration: none;
 	}
+	
 @media screen and (max-width: 768px) {
 	.navlist{ display: none;}
 	}
@@ -291,7 +292,7 @@ body{
 	}
 
 body > .container{
-	padding: 60px 15px 0  15px;
+	padding: 60px 0 0 0;
 	border:2px solid #f00;
 	}
 .siling-content{
