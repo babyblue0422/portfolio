@@ -16,10 +16,14 @@ html {
 	font-family: Helvetica, "Helvetica Neue",  Roboto, Arial, sans-serif, "Liberation Mono", "Courier New";
 	overflow-x:hidden;
 	}
+body{
+	margin:0;
+	display:block;
+	}
 .footer {
 	  position: absolute;
 	  bottom: 0;
-	  width: 100%;
+	  width:100%;
 	  /* Set the fixed height of the footer here */
 	  height: 100px;
 	  line-height: 60px; /* Vertically center the text there */
@@ -101,7 +105,7 @@ html {
 	line-height:inherit;
 	white-space:nowrap;	
 	color:#fff;
-	margin: 6px 12px;
+	margin: 4px 12px;
 	padding: 12px 12px 8px 60px;
 	text-decoration: none;
 	height: 48px;
