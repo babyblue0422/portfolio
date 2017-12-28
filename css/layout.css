@@ -585,7 +585,13 @@ body{
 	}
 
 @media screen and (max-width: 768px) {
-	.box_main{}
+	.box_main{ padding-left: 10%;}
+	.box_header_main{
+		font-size: 4rem;
+		text-align:center;
+		width:100%;
+		}
+	
 	
 	}
 
