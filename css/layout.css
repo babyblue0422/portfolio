@@ -40,8 +40,9 @@ body{
 .navbar{
 	position: fixed;
 	top:0;
-	/*left:0;*/
-	width:100vw;
+	right:0;
+	left:0;
+	/*width:100vw;*/
 	background-color:rgba(0, 0, 0, 0.8);
 	border-color: #080808;
 	height: 60px;
@@ -176,11 +177,7 @@ body{
 	
 @media screen and (max-width: 768px) {
 	.navlist{ display: none;}
-/*	.navbar{
-			box-sizing:border-box;
-			border-bottom:1px solid rgba(0, 0, 0, 0.9);
-		}
-*/	}
+	}
 	
 	
 /*--- mobile menu display setting ---*/
@@ -373,8 +370,12 @@ body{
 	letter-spacing: 0.5px;
 	line-height:  1.6;
 	}
+@media screen and (max-width: 768px) {
+	.box_header hr{
+		width: 35%;
+		}
 
-	
+	}
 /*-contact*/
 .box_contact{
 	background-color:#525252;
@@ -387,6 +388,7 @@ body{
 	margin: 90px auto 60px auto;
 	width: 40%;
 	}
+
 .box_content  > .secorndarybox{
 	font-size:	 1.125rem;
 	color:#e7e7e7;
@@ -434,6 +436,30 @@ body{
 	margin-right: 5px;
 	background: url(../images/img_mail.png) left center no-repeat;
 	}
+	
+@media screen and (max-width: 768px) {
+	.box_content > .main{
+		width:100%;
+		margin: 90px auto 60px auto;
+		font-size: 1.25rem;
+		}
+	.box_content  > .secorndarybox{
+		font-size:0.875rem;
+		width: 100%;
+		margin: 60px 0 50px 0; 
+		}
+	.box_content  > .mailbox{
+		text-align: center;
+		width:100%;
+		font-size: 1.125rem;
+		margin:  50px auto 50px auto;
+		}
+	.mailbox > img{
+		margin: 10px auto 10px auto;
+		}
+	}
+
+/*-about*/
 .box_content > .main_about{
 	font-size:  1.5rem;
 	width:  35%;
@@ -447,6 +473,20 @@ body{
 	margin: 70px auto 50px auto; 
 	letter-spacing: 0.5px;
 	}
+	
+@media screen and (max-width: 768px) {
+	.box_content > .main_about{
+		width:100%;
+		margin: 90px 0 60px 0;
+		font-size: 1.25rem;
+		}
+	.box_content > .secorndary_about{
+		font-size:1rem;
+		width: 100%;
+		}
+	}
+
+
 /*SKILL*/
 .box_header_gray{
 	font-size:3rem;
@@ -505,6 +545,16 @@ body{
 	color:#555;
 	line-heihgt: 1.6;
 	}
+@media screen and (max-width: 768px) {
+	.box_header_gray hr{	width:25%;	}
+	.skillbox .secondary{
+		width: 100%;
+		margin: 40px 0;
+		}
+
+
+}
+
 
 .footer > .container{
 	padding-left: 15px;
