@@ -47,6 +47,7 @@ body{
 	height: 60px;
 	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 	z-index:999;
+	border:2px solid #eee;
 	}
 
 .containter-fluid{
@@ -54,6 +55,7 @@ body{
 	padding-left: 15px;
 	margin-left: auto;
 	margin-right: auto;
+	border:2px solid #f00;
 	}
 .navbar-header{
 	color:#fff;
