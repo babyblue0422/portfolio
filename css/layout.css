@@ -40,9 +40,8 @@ body{
 .navbar{
 	position: fixed;
 	top:0;
-	left:0;
-	right:0;
-	/*width:100vw;*/
+	/*left:0;
+	width:100vw;*/
 	background-color:rgba(0, 0, 0, 0.8);
 	border-color: #080808;
 	height: 60px;
@@ -357,11 +356,6 @@ body{
 	background-color:rgba(115, 132, 136, 1.0);
 	*/
 	}
-.box_contact{
-	background-color:#525252;
-	background-color:rgba(82, 82, 82, 1.0);
-	}	
-
 .box_header{
 	font-size:3rem;
 	text-align:center;
@@ -374,12 +368,19 @@ body{
 	/*background-color:#e15555;*/
 	border:0;
 	}
-
 .box_content{
 	font-size:  1rem;
 	letter-spacing: 0.5px;
 	line-height:  1.6;
 	}
+
+	
+/*-contact*/
+.box_contact{
+	background-color:#525252;
+	background-color:rgba(82, 82, 82, 1.0);
+	}	
+
 
 .box_content > .main{
 	font-size:  1.5rem;
