@@ -790,7 +790,7 @@ body{
 /*work作品*/
 .workbox{
 	margin: 90px auto 60px auto;
-	width:80%;
+	width:45%;
 	justify-content: center;
 	font-size:  1rem;
 	letter-spacing: 0.5px;
@@ -798,7 +798,7 @@ body{
 	color: #737373;
 	}
 .sec_containerbox{
-	width: 77.2%;
+	width: 79%;
 	margin: 90px auto 30px auto;
 	}
 .sec_header{
@@ -1135,8 +1135,7 @@ body{
 		}
 	}
 @media screen and (min-width:769px) and (max-width: 1000px) {
-	.workbox
-	{
+	.workbox{
 		width: 80%;
 		}
 	.sec_containerbox{
