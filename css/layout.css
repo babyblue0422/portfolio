@@ -1219,20 +1219,20 @@ body{
 	    letter-spacing: 0;
 		}
 	}	
-@media screen and (max-width: 540px) {
+@media screen and (min-width:361px)  and (max-width: 540px) {
 	.workbox{
 		width: 80%;
 		letter-spacing: 0;
 		}
 	.sec_containerbox{
-		width:80%;
+		width:85%;
 		}
 
 	#slideshow_abgneBlock, #slideshow_abgneBlock_g {
-		height:1200px;
+		height:1120px;
 		}	
 	#slideshow_abgneBlock_a{
-		height:  740px;
+		height:  650px;
 		} 
 	#slideshow_abgneBlock ul.list li, 
 	#slideshow_abgneBlock_g ul.list li {
@@ -1252,9 +1252,9 @@ body{
 		max-height: 174px;
 		}
 	.app_containerbox{
-		max-width:110px;
-		max-height:110px;
-		margin: 0 20px 20px 0px;
+		max-width:100px;
+		max-height:100px;
+		margin: 0 30px 20px 0px;
 		}
 	.app_containerbox .heading-title{
 		font-size:1rem;
@@ -1269,7 +1269,7 @@ body{
 	#slideshow_abgneBlock ul.playerControl, 
 	#slideshow_abgneBlock_a ul.playerControl, 
 	#slideshow_abgneBlock_g ul.playerControl{
-		width:25%;
+		width:28%;
 		}
 	.modal-content{padding: 20px;}
 	.modal-content .headbox{
@@ -1285,12 +1285,13 @@ body{
 		width: 90%;
 		}
 	}
+
 @media screen and (max-width: 360px) {
 	.sec_containerbox{
-		width:85%;
+		width:90%;
 		}	
 	#slideshow_abgneBlock, #slideshow_abgneBlock_g {
-		height:1030px;
+		height:1000px;
 		}	
 	#slideshow_abgneBlock_a{
 		height:  700px;
@@ -1313,10 +1314,9 @@ body{
 		margin: 0 15px 20px 0px;
 		}
 
-
 	#slideshow_abgneBlock ul.playerControl, 
 	#slideshow_abgneBlock_a ul.playerControl, 
 	#slideshow_abgneBlock_g ul.playerControl{
-		width:30%;
+		width:25%;
 		}
 	}
