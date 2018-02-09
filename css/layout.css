@@ -1252,8 +1252,8 @@ body{
 		max-height: 174px;
 		}
 	.app_containerbox{
-		max-width:120px;
-		max-height:120px;
+		max-width:110px;
+		max-height:110px;
 		margin: 0 20px 20px 0px;
 		}
 	.app_containerbox .heading-title{
@@ -1286,6 +1286,9 @@ body{
 		}
 	}
 @media screen and (max-width: 360px) {
+	.sec_containerbox{
+		width:85%;
+		}	
 	#slideshow_abgneBlock, #slideshow_abgneBlock_g {
 		height:1030px;
 		}	
@@ -1301,13 +1304,13 @@ body{
 		}
 	.web_containerbox, .gra_containerbox{
 		margin: 0 20px 20px 0;
-		max-width:  270px;
-		max-height: 174px;
+		max-width:  260px;
+		max-height: 170px;
 		}
 	.app_containerbox{
-		max-width:110px;
-		max-height:110px;
-		margin: 0 20px 20px 0px;
+		max-width:90px;
+		max-height:90px;
+		margin: 0 15px 20px 0px;
 		}
 
 
