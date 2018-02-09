@@ -25,7 +25,6 @@ body{
 	bottom: 0;
 	left:0;
 	right:0;
-	/* Set the fixed height of the footer here */
 	height: 60px;
 	line-height: 30px; /* Vertically center the text there */
 	background-color: #000;
@@ -58,12 +57,13 @@ body{
 	color:#fff;
 	font-size:1.5rem;
 	}
-@media (max-width: 768px) {
+
+@media screen and (max-width: 768px) {
 	.navbar-header {
 		float: left;
 		}
-
 	}
+
 .container > .navbar-header,
 .container-fluid > .navbar-header,
 .container > .navbar-collapse,
@@ -71,7 +71,8 @@ body{
 	margin-right: -15px;
 	margin-left: -15px;
 	}
-@media (max-width: 768px) {
+
+@media screen and (max-width: 768px) {
 	.container > .navbar-header,
 	.container-fluid > .navbar-header,
 	.container > .navbar-collapse,
@@ -179,8 +180,6 @@ body{
 	.navlist{ display: none;}
 	}
 
-	
-	
 /*--- mobile menu display setting ---*/
 .hamburger-menu{
   	position: absolute;
@@ -201,9 +200,10 @@ body{
 	box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
 	border-radius: 6px;
 	}
+
 @media screen and (min-width: 769px) {
 	.hamburger-menu{ display: none;}
-	}
+	}	
 
 .hamburger-menu span{
 	display: block;
@@ -350,9 +350,9 @@ body{
 		}
 	}
 @media screen and (max-width: 540px) {
-		.siling-content{
-			padding: 100px 20px 50px 20px;
-			}
+	.siling-content{
+		padding: 100px 20px 50px 20px;
+		}
 	}
 
 .box_main{
@@ -408,12 +408,16 @@ body{
 	line-height:  1.6;
 	}
 
-@media screen and (min-width: 641px) and (max-width: 768px) {
+@media screen and (min-width: 541px) and (max-width: 768px) {
 	.box_header hr{
 		width: 20%;
 		}
 	}
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 540px) {
+	.box_header{
+		width: 60%;
+		text-align: center;
+		}
 	.box_header hr{
 		width: 40%;
 		}
@@ -477,46 +481,55 @@ body{
 	background: url(../images/img_mail.png) left center no-repeat;
 	}
 
-@media screen and (min-width:769px) and (max-width: 1366px) {
+@media screen and (min-width:1025px) and (max-width: 1366px) {
 	.box_content > .main_contact{
-		width: 42%;
+		width: 44%;
+		}
+	}
+@media screen and (min-width:769px) and (max-width: 1024px) {
+	.box_content > .main_contact{
+		width: 50%;
+		font-size: 1.25rem;
 		}
 	}
 @media screen and (min-width:541px) and (max-width: 768px) {
 	.box_content > .main_contact{
-		width:67%;
-		font-size: 1.25rem;
+		width:59%;
+		font-size: 1.125rem;
 		}
 	.box_content  > .secorndarybox{
 		font-size:1rem;
-		width: 70%;
+		width: 75%;
+		text-align: center;
 		}
 	.box_content  > .mailbox{
 		text-align: center;
 		width:100%;
 		font-size: 1.125rem;
-		margin:  50px auto 50px auto;
+		margin: 50px auto 50px auto;
 		}
 	.mailbox > img{
-		margin: 10px auto 10px auto;
+		margin: 10px auto 0px auto;
 		}
 	}
 @media screen and (max-width:540px){
 	.box_content >  .main_contact{
-		width:85%;
+		width:70%;
 		margin: 90px auto 60px auto;
 		font-size: 1.15rem;
-		letter-spacing: 0px;
+		letter-spacing: 0.5px;
 		}
 	.box_content  > .secorndarybox{
 		font-size: 1rem;
-		width:90%;
+		width:80%;
+		text-align: center;
+		color:#e7e7e7;
 		}
 	.box_content  > .mailbox{
 		text-align: center;
 		width:97%;
 		font-size: 1.12rem;
-		margin:  50px auto 50px auto;
+		margin:  50px auto 60px auto;
 		}
 	.mailbox > img{
 		margin: 20px auto 0px auto;
@@ -539,7 +552,7 @@ body{
 	letter-spacing: 0px;
 	}
 
-@media screen and (min-width:769px) and (max-width: 1366px) {
+@media screen and (min-width:1025px) and (max-width: 1366px) {
 	.box_content > .main_about{
 		width:  41%;
 		}
@@ -548,9 +561,18 @@ body{
 
 		}
 	}
+@media screen and (min-width:769px) and (max-width: 1024px) {
+	.box_content > .main_about{
+		width:  46%;
+		font-size: 1.25rem;
+		}
+	.box_content > .secorndary_about{
+		width:90%;
+		}
+	}
 @media screen and (min-width: 541px) and (max-width: 768px) {
 	.box_content > .main_about{
-		width:62%;
+		width:63%;
 		margin: 90px auto 60px auto;
 		font-size: 1.25rem;
 		}
@@ -631,16 +653,24 @@ body{
 	letter-spacing: 0;
 	}
 
-@media screen and (min-width:769px) and (max-width: 1366px) {
-
+@media screen and (min-width:769px) and (max-width:1024px) {
+	.skillbox{
+		width: 96%;
+		}
+	.skillbox .secondary{
+		color:#444;
+		margin:  40px 15px 40px 15px;
+		width: 29%;
+		text-align: center;
+		}
 	}
 @media screen and (min-width: 541px) and (max-width: 768px) {
-	.skillbox{width: 96%;}
+	.skillbox{width: 98%;}
 	.skillbox .secondary{
 		/*display: block;*/
 		color:#444;
-		margin:  40px 10px 20px 10px;
-		width: 30%;
+		margin:  40px 15px 20px 10px;
+		width: 28%;
 		text-align: center;
 		}
 	.box-title{ 
@@ -662,8 +692,7 @@ body{
 
 
 /*---main--*/
-.box_main{
-	}
+
 .box_header_main{
 	position:relative;
 	right: 40px;
@@ -712,14 +741,14 @@ body{
 	}
 @media screen and (min-width: 541px) and (max-width: 768px) {
 	.box_main{
-		padding-left: 45%;
+		padding-left: 43%;
 		}
 	.box_header_main{
 		top: 70px;
 		left: 0%;
-		right: 20px;
-		font-size:3.75rem;
-		width:70%;
+		right: 50px;
+		font-size:3.5rem;
+		width:60%;
 		}
 	.box_header_main hr{
 		width:35%;
@@ -811,14 +840,13 @@ body{
 #slideshow_abgneBlock_a ul.list li, 
 #slideshow_abgneBlock_g ul.list li {
 	float: left;
-	margin: 0 20px 0 0px;
-	padding:0 10px 0 0px;
-	width:12.27%; 
-	height:100%;
-	/*box-sizing: border-box;
+	margin: 0;
+	padding:0 ;
+	width:12.5%; 
+	/*height:100%;
+	box-sizing: border-box;
 	border:2px dashed #fa0;*/
 	}
-#slideshow_abgneBlock_a ul.list li{ width: 14%;	}
 
 #slideshow_abgneBlock .list img, 
 #slideshow_abgneBlock_a .list img, 
@@ -832,25 +860,26 @@ body{
 #slideshow_abgneBlock_a ul.playerControl, 
 #slideshow_abgneBlock_g ul.playerControl{
 	margin: 0 auto;
-	/*width:  20%;*/
+	width: 20%;
 	padding: 0;
 	list-style: none;
 	position: absolute;
 	bottom: 5px;
-	right: 35%;
+	/*right: 35%;*/
 	height: 25px;
-	/*border: 3px solid #339;*/
 	}
 #slideshow_abgneBlock ul.playerControl li, 
 #slideshow_abgneBlock_a ul.playerControl li, 
 #slideshow_abgneBlock_g ul.playerControl li {
-	float: left;
+	/*float: left;*/
+	display: inline-block;
 	width: 12px;
 	height: 12px;
 	border-radius:  50%;
 	cursor: pointer;
 	margin: 3px 5px ;
 	background-color:#000;
+	text-align: center;
 	}
 #slideshow_abgneBlock ul.playerControl li.current, 
 #slideshow_abgneBlock_a ul.playerControl li.current, 
@@ -882,7 +911,7 @@ body{
 	box-sizing: border-box;
 	max-width:  320px;
 	max-height: 210px;
-	margin: 0 30px 20px 0px;
+	margin: 0 35px 20px 0px;
 	vertical-align: middle;
 	line-height: 1.8;
 	text-align: center;
@@ -1060,26 +1089,97 @@ body{
 	vertical-align: middle;
 	}
 
-@media screen and (min-width:769px) and (max-width: 1366px) {
+@media screen and (min-width:1025px) and (max-width: 1366px) {
 	.sec_containerbox{
-		width: 88.8%;
+		width: 88.5%;
+		border: 2px solid #fa0;
 		}
 	#slideshow_abgneBlock ul.list li, 
 	#slideshow_abgneBlock_a ul.list li, 
 	#slideshow_abgneBlock_g ul.list li {
-		width:12.28%; 
+		width:12.5%; 
+		margin: 0;
+		border: 2px dashed #fa0;
 		}
 	}
-
-@media screen and (min-width:541px) and (max-width: 768px) {
+@media screen and (min-width:1001px) and (max-width: 1024px) {
 	.workbox{
 		width: 70%;
 		}
 	.sec_containerbox{
-		width:93%;
+		width: 96.6%;
+		border: 2px dashed #f90;
+		}
+	#slideshow_abgneBlock, #slideshow_abgneBlock_g {
+		height:450px;
+		}
+	#slideshow_abgneBlock_a{
+		height: 400px;
+		}
+	#slideshow_abgneBlock ul.list li, 
+	#slideshow_abgneBlock_a ul.list li, 
+	#slideshow_abgneBlock_g ul.list li {
+		width:12.5%; 
+		margin: 0;
+		border: 2px solid #390;
+		}
+	.web_containerbox, .gra_containerbox{
+		max-width:  265px;
+		max-height: 174px;
+		margin: 0 20px 20px 0px;
+		}
+	.app_containerbox{
+		max-width:150px;
+		max-height: 150px;
+		margin: 0 21px 20px 0px;
+		}
+	}
+@media screen and (min-width:769px) and (max-width: 1000px) {
+	.workbox{
+		width: 70%;
+		}
+	.sec_containerbox{
+		width: 94%;
+		}
+	#slideshow_abgneBlock, #slideshow_abgneBlock_g {
+		height:670px;
+		}
+	#slideshow_abgneBlock_a{
+		height: 500px;
+		}
+	#slideshow_abgneBlock ul.list li, 
+	#slideshow_abgneBlock_a ul.list li, 
+	#slideshow_abgneBlock_g ul.list li {
+		width:12.5%; 
+		margin: 0;
+		}
+	.web_containerbox, .gra_containerbox{
+		max-width:  280px;
+		max-height: 184px;
+		margin: 0 30px 20px 0px;
+		}
+	.app_containerbox{
+		max-width:130px;
+		max-height: 130px;
+		margin: 0 25px 20px 0px;
+		}
+	#slideshow_abgneBlock ul.playerControl, 
+	#slideshow_abgneBlock_a ul.playerControl, 
+	#slideshow_abgneBlock_g ul.playerControl{
+		width: 18%;
+		}
+
+	}
+@media screen and (min-width:541px) and (max-width: 768px) {
+	.workbox{
+		width: 72%;
+		}
+	.sec_containerbox{
+		width:95.5%;
+		padding:0;
 		}
 	#slideshow_abgneBlock, #slideshow_abgneBlock_g  {
-		height:660px;
+		height:680px;
 		}	
 	#slideshow_abgneBlock ul.list, 
 	#slideshow_abgneBlock_a ul.list, 
@@ -1088,28 +1188,24 @@ body{
 		}
 	#slideshow_abgneBlock ul.list li, 
 	#slideshow_abgneBlock_g ul.list li  {
-		float: left;
-		margin: 0 20px 0 0;
-		padding:0;
-		width:16.2%;
-		height:90%;
+		margin: 0 ;
+		width:16.7%;
 		}
-
 	#slideshow_abgneBlock_a{
 		height: 310px;
 		}	
 	#slideshow_abgneBlock_a ul.list li {
 		float: left;
-		margin: 0 10px 0 0;
+		margin: 0;
 		padding:0;
 		width:19%;
 		height:90%;
 		}
 
 	.web_containerbox, .gra_containerbox{
-		max-width:  280px;
-		max-height: 184px;
-		margin: 0 23px 20px 0px;
+		max-width:  290px;
+		max-height: 190px;
+		margin: 0 30px 20px 0px;
 		}
 	.app_containerbox{
 		max-width:110px;
@@ -1125,25 +1221,25 @@ body{
 	}	
 @media screen and (max-width: 540px) {
 	.workbox{
-		width: 75%;
+		width: 80%;
 		letter-spacing: 0;
 		}
 	.sec_containerbox{
-		width:78%;
+		width:80%;
 		}
 
 	#slideshow_abgneBlock, #slideshow_abgneBlock_g {
-		height:1130px;
+		height:1200px;
 		}	
 	#slideshow_abgneBlock_a{
-		height:  750px;
+		height:  740px;
 		} 
 	#slideshow_abgneBlock ul.list li, 
 	#slideshow_abgneBlock_g ul.list li {
 		float:left;
-		width:12.2%;
-		height: 100%;
-		margin: 0 10px 0 0;	
+		width:12.5%;
+		margin: 0 ;
+		/*border: 2px solid #a0f;	*/
 		}
 	.subbox-heading{
 		max-width: 100%;
@@ -1151,9 +1247,9 @@ body{
 		margin: auto;
 		}
 	.web_containerbox, .gra_containerbox{
-		margin: 0 auto 20px 0;
-		max-width:95%;
-		max-height: 95%;
+		margin: 0 20px 20px 0;
+		max-width:  270px;
+		max-height: 174px;
 		}
 	.app_containerbox{
 		max-width:120px;
@@ -1170,7 +1266,11 @@ body{
 	    letter-spacing: 0;
 	    padding: 20% 10px;
 		}	
-
+	#slideshow_abgneBlock ul.playerControl, 
+	#slideshow_abgneBlock_a ul.playerControl, 
+	#slideshow_abgneBlock_g ul.playerControl{
+		width:25%;
+		}
 	.modal-content{padding: 20px;}
 	.modal-content .headbox{
 		width: 90%; 
@@ -1183,5 +1283,37 @@ body{
 		}
 	.innerbox img{
 		width: 90%;
+		}
+	}
+@media screen and (max-width: 360px) {
+	#slideshow_abgneBlock, #slideshow_abgneBlock_g {
+		height:1030px;
+		}	
+	#slideshow_abgneBlock_a{
+		height:  700px;
+		} 
+	#slideshow_abgneBlock ul.list li, 
+	#slideshow_abgneBlock_g ul.list li {
+		float:left;
+		width:12.5%;
+		margin: 0 ;
+		/*border: 2px solid #a0f;	*/
+		}
+	.web_containerbox, .gra_containerbox{
+		margin: 0 20px 20px 0;
+		max-width:  270px;
+		max-height: 174px;
+		}
+	.app_containerbox{
+		max-width:110px;
+		max-height:110px;
+		margin: 0 20px 20px 0px;
+		}
+
+
+	#slideshow_abgneBlock ul.playerControl, 
+	#slideshow_abgneBlock_a ul.playerControl, 
+	#slideshow_abgneBlock_g ul.playerControl{
+		width:30%;
 		}
 	}
