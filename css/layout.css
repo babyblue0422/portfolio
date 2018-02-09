@@ -1135,7 +1135,7 @@ body{
 		}
 	}
 @media screen and (min-width:769px) and (max-width: 1000px) {
-	.
+	.workbox
 	{
 		width: 80%;
 		}
@@ -1294,7 +1294,7 @@ body{
 
 @media screen and (max-width: 360px) {
 	.workbox{
-		width: 80%;
+		width: 78%;
 		letter-spacing: 0;
 		}
 	.sec_containerbox{
