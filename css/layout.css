@@ -790,7 +790,7 @@ body{
 /*work作品*/
 .workbox{
 	margin: 90px auto 60px auto;
-	width: 50%;
+	width: 60%;
 	justify-content: center;
 	font-size:  1rem;
 	letter-spacing: 0.5px;
@@ -1108,7 +1108,7 @@ body{
 		}
 	.sec_containerbox{
 		width: 96.6%;
-		border: 2px dashed #f90;
+		/*border: 2px dashed #f90;*/
 		}
 	#slideshow_abgneBlock, #slideshow_abgneBlock_g {
 		height:450px;
@@ -1121,7 +1121,7 @@ body{
 	#slideshow_abgneBlock_g ul.list li {
 		width:12.5%; 
 		margin: 0;
-		border: 2px solid #390;
+		/*border: 2px solid #390;*/
 		}
 	.web_containerbox, .gra_containerbox{
 		max-width:  265px;
@@ -1136,7 +1136,7 @@ body{
 	}
 @media screen and (min-width:769px) and (max-width: 1000px) {
 	.workbox{
-		width: 70%;
+		width: 80%;
 		}
 	.sec_containerbox{
 		width: 94%;
@@ -1285,3 +1285,38 @@ body{
 		width: 90%;
 		}
 	}
+/*
+@media screen and (max-width: 360px) {
+	.sec_containerbox{
+		width:90%;
+		}	
+	#slideshow_abgneBlock, #slideshow_abgneBlock_g {
+		height:1040px;
+		}	
+	#slideshow_abgneBlock_a{
+		height:  680px;
+		} 
+	#slideshow_abgneBlock ul.list li, 
+	#slideshow_abgneBlock_g ul.list li {
+		float:left;
+		width:12.5%;
+		margin: 0 ;
+		}
+	.web_containerbox, .gra_containerbox{
+		margin: 0 20px 20px 0;
+		max-width:  260px;
+		max-height: 170px;
+		}
+	.app_containerbox{
+		max-width:100px;
+		max-height:100px;
+		margin: 0 15px 20px 0px;
+		}
+
+	#slideshow_abgneBlock ul.playerControl, 
+	#slideshow_abgneBlock_a ul.playerControl, 
+	#slideshow_abgneBlock_g ul.playerControl{
+		width:30%;
+		}
+	}
+*/
