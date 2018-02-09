@@ -1285,38 +1285,3 @@ body{
 		width: 90%;
 		}
 	}
-
-@media screen and (max-width: 360px) {
-	.sec_containerbox{
-		width:90%;
-		}	
-	#slideshow_abgneBlock, #slideshow_abgneBlock_g {
-		height:1000px;
-		}	
-	#slideshow_abgneBlock_a{
-		height:  700px;
-		} 
-	#slideshow_abgneBlock ul.list li, 
-	#slideshow_abgneBlock_g ul.list li {
-		float:left;
-		width:12.5%;
-		margin: 0 ;
-		/*border: 2px solid #a0f;	*/
-		}
-	.web_containerbox, .gra_containerbox{
-		margin: 0 20px 20px 0;
-		max-width:  260px;
-		max-height: 170px;
-		}
-	.app_containerbox{
-		max-width:100px;
-		max-height:100px;
-		margin: 0 15px 20px 0px;
-		}
-
-	#slideshow_abgneBlock ul.playerControl, 
-	#slideshow_abgneBlock_a ul.playerControl, 
-	#slideshow_abgneBlock_g ul.playerControl{
-		width:25%;
-		}
-	}
