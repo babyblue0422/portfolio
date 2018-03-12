@@ -900,7 +900,6 @@ body{
 	color:#444;
 	width:98%;
 	margin: 0px auto;
-
 	}	
 .web_containerbox, .gra_containerbox{
 	position: relative;
@@ -1101,7 +1100,10 @@ body{
 		margin: 0;
 		border: 2px dashed #fa0;
 		}
-	}
+	.sec_cont{	
+		width:98%;
+	}	
+}
 @media screen and (min-width:1001px) and (max-width: 1024px) {
 	.workbox{
 		width: 75%;
@@ -1128,6 +1130,9 @@ body{
 		max-height: 174px;
 		margin: 0 20px 20px 0px;
 		}
+	.sec_cont{	
+			width:98%;
+		}	
 	.app_containerbox{
 		max-width:150px;
 		max-height: 150px;
@@ -1168,7 +1173,9 @@ body{
 	#slideshow_abgneBlock_g ul.playerControl{
 		width: 18%;
 		}
-
+ 	.sec_cont{	
+			width:98%;
+		}	
 	}
 @media screen and (min-width:541px) and (max-width: 768px) {
 	.workbox{
@@ -1223,7 +1230,10 @@ body{
 	#slideshow_abgneBlock_g ul.playerControl{
 		width:20%;
 		}
-	}	
+	.sec_cont{	
+			width:98%;
+		}	
+}	
 @media screen and (min-width:361px)  and (max-width: 540px) {
 	.workbox{
 		width: 75%;
@@ -1289,7 +1299,10 @@ body{
 	.innerbox img{
 		width: 90%;
 		}
-	}
+	.sec_cont{	
+			width:98%;
+		}	
+}
 
 @media screen and (max-width: 360px) {
 	.workbox{
@@ -1358,5 +1371,8 @@ body{
 	.innerbox img{
 		width: 85%;
 		}		
+	.sec_cont{	
+			width:98%;
+		}	
 	}
 
