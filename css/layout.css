@@ -1089,24 +1089,8 @@ body{
 
 @media screen and (min-width:1281px) and (max-width: 1366px) {
 	.sec_containerbox{
-		width: 88.5%;
-		border: 2px solid #fa0;
-		}
-	#slideshow_abgneBlock ul.list li, 
-	#slideshow_abgneBlock_a ul.list li, 
-	#slideshow_abgneBlock_g ul.list li {
-		width:12.5%; 
-		margin: 0;
-		border: 2px dashed #fa0;
-		}
-	.sec_cont{	
-		width:98%;
-	}	
-}
-@media screen and (min-width:1025px) and (max-width: 1280px) {
-	.sec_containerbox{
-		width: 88.5%;
-		border: 2px solid #fa0;
+		width:93%;
+		/*border: 2px solid #fa0;*/
 		}
 	#slideshow_abgneBlock ul.list li, 
 	#slideshow_abgneBlock_a ul.list li, 
@@ -1117,6 +1101,39 @@ body{
 		}
 	.sec_cont{	
 		width:98%;
+	}	
+}
+@media screen and (min-width:1025px) and (max-width: 1280px) {
+		.sec_containerbox{
+			width:95%;
+			/*border: 2px solid #f00;*/
+			}
+		#slideshow_abgneBlock ul.list li, 
+		#slideshow_abgneBlock_a ul.list li, 
+		#slideshow_abgneBlock_g ul.list li {
+			width:12.5%; 
+			margin: 0;
+			/*border: 2px dashed #fa0;*/
+			}
+	  .app_containerbox{
+			max-width:  180px;
+			max-height: 180px;
+			margin: 0 30px 20px 0px;
+			}
+	#slideshow_abgneBlock ul.playerControl, 
+	#slideshow_abgneBlock_a ul.playerControl, 
+	#slideshow_abgneBlock_g ul.playerControl{
+			margin: 0 auto;
+			width: 10%;
+			padding: 0;
+			list-style: none;
+			position: absolute;
+			bottom: 5px;
+			/*right: 35%;*/
+			height: 25px;
+			}
+  .sec_cont{	
+		width:100%;
 	}	
 }
 @media screen and (min-width:1001px) and (max-width: 1024px) {
