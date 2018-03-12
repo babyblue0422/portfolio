@@ -978,7 +978,6 @@ body{
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 	margin: auto;
 	width:auto;
-
 	}
 .app_containerbox{
 	position: relative;
@@ -1088,7 +1087,7 @@ body{
 	vertical-align: middle;
 	}
 
-@media screen and (min-width:1025px) and (max-width: 1366px) {
+@media screen and (min-width:1281px) and (max-width: 1366px) {
 	.sec_containerbox{
 		width: 88.5%;
 		border: 2px solid #fa0;
@@ -1099,6 +1098,22 @@ body{
 		width:12.5%; 
 		margin: 0;
 		border: 2px dashed #fa0;
+		}
+	.sec_cont{	
+		width:98%;
+	}	
+}
+@media screen and (min-width:1025px) and (max-width: 1280px) {
+	.sec_containerbox{
+		width: 88.5%;
+		border: 2px solid #fa0;
+		}
+	#slideshow_abgneBlock ul.list li, 
+	#slideshow_abgneBlock_a ul.list li, 
+	#slideshow_abgneBlock_g ul.list li {
+		width:12.5%; 
+		margin: 0;
+		/*border: 2px dashed #fa0;*/
 		}
 	.sec_cont{	
 		width:98%;
