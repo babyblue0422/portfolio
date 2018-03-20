@@ -1103,20 +1103,30 @@ body{
 }
 @media screen and (min-width:1025px) and (max-width:1280px) {
 		.sec_containerbox{
-			width:95%;
-			/*border: 2px solid #f00;*/
+			width:97%;
 			}
-		#slideshow_abgneBlock ul.list li, 
+	#slideshow_abgneBlock, #slideshow_abgneBlock_g {
+		height:450px;
+		}
+	#slideshow_abgneBlock_a{
+		height: 400px;
+		}
+	#slideshow_abgneBlock ul.list li, 
 		#slideshow_abgneBlock_a ul.list li, 
 		#slideshow_abgneBlock_g ul.list li {
 			width:12.5%; 
 			margin: 0;
 			/*border: 2px dashed #fa0;*/
 			}
-	  .app_containerbox{
-			max-width:  180px;
-			max-height: 180px;
-			margin: 0 30px 20px 0px;
+	.web_containerbox, .gra_containerbox{
+		max-width:  250px;
+		max-height: 164px;
+		margin: 0 30px 20px 0px;
+		}
+	.app_containerbox{
+			max-width:  150px;
+			max-height: 150px;
+			margin: 0 20px 20px 0px;
 			}
 	#slideshow_abgneBlock ul.playerControl, 
 	#slideshow_abgneBlock_a ul.playerControl, 
