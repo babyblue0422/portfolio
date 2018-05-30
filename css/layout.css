@@ -357,8 +357,8 @@ body{
 
 .box_main{
 	background-image:url(../images/bg_main.jpg);
-	background-position: center top;
-	padding-left: 50%;
+	background-position:left top;
+	padding-left: 55%;
 	}
 .box_work{
 	background-color:#f2f2f2;
@@ -1053,7 +1053,8 @@ body{
 	margin: 40px auto 20px auto;
 	width:6%;
 	height: 4px;
-	background-color:#0781df;
+	background-color:#ccc;
+	/*background-color:#0781df;*/
 	border:0;
 	position:relative;
 	text-align: left;
